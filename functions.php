@@ -78,31 +78,6 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 		add_theme_support( 'automatic-feed-links' );
 
 		/**
-		 * Support Custom Header.
-		 */
-		$default = array(
-			'width'         => 0,
-			'height'        => 0,
-			'flex-height'   => false,
-			'flex-width'    => false,
-			'header-text'   => false,
-			'default-image' => '',
-			'uploads'       => true,
-		);
-
-		add_theme_support( 'custom-header', $default );
-
-		/**
-		 * Support Custom Background.
-		 */
-		$defaults = array(
-			'default-color' => '',
-			'default-image' => '',
-		);
-
-		add_theme_support( 'custom-background', $defaults );
-
-		/**
 		 * Support Custom Editor Style.
 		 */
 		add_editor_style( 'assets/css/editor-style.css' );
