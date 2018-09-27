@@ -1,0 +1,20 @@
+// ==========================================================================
+// Theme Style Main
+// ==========================================================================
+
+/*!
+Theme Name: "Nome do Cliente"
+Theme URI: "Link do Cliente"
+Description: Tema desenvolvido para "Nome do Cliente" com base no Odin Framework.
+Author: Itamar Silva
+Author URI: https://itamarsilva.eti.br
+*/
+
+@import
+        "variables",           // Theme       Custom Variables
+        "bootstrap/bootstrap", // Bootstrap   Styles Core
+        "wordpress/wordpress", // WordPress   Styles Core
+        //"woocommerce",       // WooCommerce Styles Core
+        "odin/core",           // Odin        Styles Core
+        "layout"               // Theme       Custom Layout
+;
