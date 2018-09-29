@@ -283,6 +283,11 @@ require_once get_template_directory() . '/inc/optimize.php';
 require_once get_template_directory() . '/inc/template-tags.php';
 
 /**
+ * Customizer
+ */
+require_once get_template_directory() . '/inc/customizer.php';
+
+/**
  * WooCommerce compatibility files.
  */
 if ( is_woocommerce_activated() ) {
