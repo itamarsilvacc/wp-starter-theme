@@ -50,6 +50,15 @@ function odin_customize_register( $wp_customize ) {
                                     'settings' => 'odin_social_networks_youtube',
                                     'type' => 'text',
                                     'description' => '' ) );
+
+		// Footer Credits
+		$wp_customize->add_setting( 'odin_footer_credits', array( 'default' => '', 'sanitize_callback' => '' ) );
+    $wp_customize->add_control( 'odin_footer_credits', array(
+                                    'label' => 'Créditos do Rodapé',
+                                    'section' => 'title_tagline',
+                                    'settings' => 'odin_footer_credits',
+                                    'type' => 'textarea',
+                                    'description' => '' ) );
 }
 add_action( 'customize_register', 'odin_customize_register' );
 
